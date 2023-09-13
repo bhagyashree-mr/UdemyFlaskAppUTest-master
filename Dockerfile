@@ -6,6 +6,8 @@
 # ADD . /smartapp
 # WORKDIR /smartapp
 # RUN pip install --no-cache-dir -r requirements.txt
+
+# # Specify the command to run your application
 # CMD [ "python", "./run.py" ]
 
 # Use a base image that includes Python and essential build tools
@@ -27,3 +29,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Specify the command to run your application
 CMD [ "python", "./run.py" ]
+
