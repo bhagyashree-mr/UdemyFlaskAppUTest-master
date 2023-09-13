@@ -11,7 +11,7 @@
 # CMD [ "python", "./run.py" ]
 
 # Use a base image that includes Python and essential build tools
-FROM python:3.10
+FROM python:3.10-slim-buster
 
 # Set the working directory
 WORKDIR /smartapp
